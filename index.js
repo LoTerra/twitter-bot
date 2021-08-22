@@ -93,5 +93,5 @@ const runBot = async () => {
 
 }
 
-//Run script every 5 secs
-setInterval(runBot, 5000)
+//Run script every 60 min
+setInterval(runBot, 3600000)
