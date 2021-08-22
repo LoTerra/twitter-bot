@@ -70,7 +70,7 @@ const runBot = async () => {
         //Create tweet string
         tweetString = 'Draw in ' + days + ':' + hours + ':' + minutes + ':' + seconds + '🎰\nIt has never been easier to win with just 5 out of 6 symbols \nWin ' +
             '1️⃣0️⃣0️⃣0️⃣0️⃣0️⃣ ' + ' $UST with only 1 $UST \n \nStats: \n🆔ID:' + contractConfigInfo.lottery_counter + '\n💰Jackpot:' + numeral(jackpot).format("0,0.00") + '$UST \n🎟️' + contractTicketsInfo + ' tickets sold \n👋' +
-            contractPlayersInfo + ' players \n\n' + 'Desktop🖥️ \nLoterra.io \nMobile📱'
+            contractPlayersInfo + ' players \n\n' + 'Desktop🖥️ and Mobile📱 \nhttps://loterra.io'
         //Dev purposes
         console.log(tweetString);
     } catch (e) {
